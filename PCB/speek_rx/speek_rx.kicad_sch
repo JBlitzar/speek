@@ -8956,6 +8956,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 15.24) (xy 182.88 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3638f182-9507-4898-8b26-fc71cf1be699")
+	)
+	(wire
+		(pts
 			(xy 194.31 67.31) (xy 180.34 67.31)
 		)
 		(stroke
@@ -9043,6 +9053,16 @@
 			(type default)
 		)
 		(uuid "43347db9-0fcb-494d-a4ba-7609c94b5add")
+	)
+	(wire
+		(pts
+			(xy 238.76 100.33) (xy 233.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e8f7c1-591f-4ff4-98dd-bf9d531add7c")
 	)
 	(wire
 		(pts
@@ -9363,6 +9383,16 @@
 			(type default)
 		)
 		(uuid "7fec0120-0c4f-4638-9497-b17a7c9e43c7")
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff77b76-6990-4614-a8d9-2954ad236979")
 	)
 	(wire
 		(pts
@@ -9766,6 +9796,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 21.59) (xy 176.53 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bfab45-0b13-48a9-97b4-ddf796fe002e")
+	)
+	(wire
+		(pts
 			(xy 21.59 86.36) (xy 17.78 85.09)
 		)
 		(stroke
@@ -10066,7 +10106,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.4509 38.1) (xy 176.53 38.1)
+			(xy 176.53 38.1) (xy 186.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10334,6 +10374,16 @@
 		)
 		(uuid "200150d3-a554-4783-a559-34b290b0990b")
 	)
+	(label "VDD33"
+		(at 130.81 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20184501-c13d-47ca-9e2b-00f883429c07")
+	)
 	(label "GPIO5"
 		(at 106.68 101.6 0)
 		(effects
@@ -10423,6 +10473,16 @@
 			(justify right bottom)
 		)
 		(uuid "31f7dd38-85a5-45bc-8e1b-05dbfbe0d7c1")
+	)
+	(label "XSMT"
+		(at 120.65 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "327bebb1-4821-4e87-9b27-04b5b6809462")
 	)
 	(label "DIN"
 		(at 134.62 182.88 0)
@@ -10544,7 +10604,7 @@
 		)
 		(uuid "4abd7243-e376-4813-ab8c-5029c942bc5d")
 	)
-	(label "SCK"
+	(label "SCK_"
 		(at 134.62 187.96 0)
 		(effects
 			(font
@@ -10834,7 +10894,7 @@
 		)
 		(uuid "7f88ec33-7e3f-4b1a-979b-a56700866f83")
 	)
-	(label "SCK"
+	(label "SCK_"
 		(at 82.55 184.15 0)
 		(effects
 			(font
@@ -10923,6 +10983,16 @@
 			(justify right bottom)
 		)
 		(uuid "9a566b07-bbbd-418f-bf05-9124de5c8a5f")
+	)
+	(label "VBUS"
+		(at 238.76 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9df27805-bb86-421b-85ff-d6b4802d5f92")
 	)
 	(label "GPIO34"
 		(at 60.96 88.9 180)
@@ -11043,6 +11113,16 @@
 			(justify right bottom)
 		)
 		(uuid "b75e514f-fc0c-4fb1-af55-6528515ea0ab")
+	)
+	(label "XSMT"
+		(at 82.55 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7d58e99-02d3-4739-8ba4-1594c5a71ff1")
 	)
 	(label "__VBUS_U0P"
 		(at 109.22 137.16 0)
@@ -14696,6 +14776,119 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:RC0402FR-0710KL")
+		(at 125.73 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539867f0-a12b-4328-9ecb-3071270ae96f")
+		(property "Reference" "R7"
+			(at 125.73 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-0710KL"
+			(at 125.73 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+			(at 125.73 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 125.73 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 125.73 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 125.73 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "851185e8-e72f-47a1-a088-1bb1047be904")
+		)
+		(pin "1"
+			(uuid "8dd7322a-f939-4941-b9be-0964390773df")
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:CL05A105KO5NNNC")
 		(at 21.59 90.17 90)
 		(unit 1)
@@ -14962,6 +15155,84 @@
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58739f55-e1bd-4120-883a-d684c4345fed")
+		(property "Reference" "#PWR048"
+			(at 182.88 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8c59176-991a-404e-ab38-d41414017d35")
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
