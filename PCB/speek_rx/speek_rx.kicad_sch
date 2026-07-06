@@ -21202,7 +21202,7 @@
 		(dnp no)
 		(uuid "ce130f3c-1801-43b1-8de3-700dab38ba49")
 		(property "Reference" "C8"
-			(at 134.366 83.312 90)
+			(at 133.35 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
