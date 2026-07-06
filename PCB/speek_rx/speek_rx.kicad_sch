@@ -163,6 +163,259 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:0402WGF0000TCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGF0000TCE"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0Ω (0R0) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402WGF0000TCE"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C17168"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF0000TCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:2450AT18A100E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8691,6 +8944,10 @@
 		(uuid "be5586fe-52c9-4577-b463-929cd006ad43")
 	)
 	(no_connect
+		(at 261.62 59.69)
+		(uuid "d4e95b65-5aa3-473c-a0eb-90d7bd4befac")
+	)
+	(no_connect
 		(at 234.95 152.4)
 		(uuid "eb08b79d-9fc6-41c8-90c0-8f29c19c7b0d")
 	)
@@ -8823,6 +9080,16 @@
 			(type default)
 		)
 		(uuid "1c84020c-0ccf-40e2-9854-713d1705c69a")
+	)
+	(wire
+		(pts
+			(xy 270.51 68.58) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df2305e-6680-4de8-ab6f-294fb43094fe")
 	)
 	(wire
 		(pts
@@ -9066,6 +9333,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 57.15) (xy 271.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493a7d6c-89c5-4f65-a332-53b0a5afa0a0")
+	)
+	(wire
+		(pts
 			(xy 128.27 93.98) (xy 135.89 93.98)
 		)
 		(stroke
@@ -9083,6 +9360,16 @@
 			(type default)
 		)
 		(uuid "529b7aa9-1451-4dbc-bb6d-ee8a8c26eac1")
+	)
+	(wire
+		(pts
+			(xy 261.62 68.58) (xy 261.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5335030e-8674-4fdc-be1e-9bc0ec485bf9")
 	)
 	(wire
 		(pts
@@ -9193,6 +9480,16 @@
 			(type default)
 		)
 		(uuid "64653073-536e-4852-b784-6b80155cc588")
+	)
+	(wire
+		(pts
+			(xy 261.62 62.23) (xy 264.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cdb389-dc87-4378-866e-f29c5d4844f2")
 	)
 	(wire
 		(pts
@@ -9456,6 +9753,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 17.78) (xy 227.33 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbcac5e-afeb-430d-893f-b9ce599ca84d")
+	)
+	(wire
+		(pts
 			(xy 109.22 135.89) (xy 109.22 137.16)
 		)
 		(stroke
@@ -9473,6 +9780,16 @@
 			(type default)
 		)
 		(uuid "8da9e632-c2bc-4ddd-8192-6c034e468a12")
+	)
+	(wire
+		(pts
+			(xy 245.11 16.51) (xy 247.65 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9085a9f2-32eb-4dda-867e-540cfcb19585")
 	)
 	(wire
 		(pts
@@ -9626,6 +9943,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 17.78) (xy 256.54 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2d67bf-3e7a-4a47-9327-71d5e603f2c6")
+	)
+	(wire
+		(pts
 			(xy 224.79 21.59) (xy 234.95 21.59)
 		)
 		(stroke
@@ -9713,6 +10040,16 @@
 			(type default)
 		)
 		(uuid "b514df6d-4e35-4244-a845-fb310354da4a")
+	)
+	(wire
+		(pts
+			(xy 233.68 16.51) (xy 233.68 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cd746b-57e6-4e0b-ae63-1fa9018d7529")
 	)
 	(wire
 		(pts
@@ -10066,6 +10403,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 16.51) (xy 247.65 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece05231-f0e1-4bbd-8c6b-a758fa934ae5")
+	)
+	(wire
+		(pts
 			(xy 113.03 68.58) (xy 113.03 73.66)
 		)
 		(stroke
@@ -10146,6 +10493,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 66.04) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58edb1c-5871-4a19-a3da-90b81a496bcc")
+	)
+	(wire
+		(pts
+			(xy 264.16 62.23) (xy 264.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d3c228-425d-4831-8cdc-eb9acd54dd66")
+	)
+	(wire
+		(pts
 			(xy 31.75 86.36) (xy 21.59 83.82)
 		)
 		(stroke
@@ -10176,7 +10543,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 17.78) (xy 234.95 17.78)
+			(xy 233.68 16.51) (xy 234.95 16.51)
 		)
 		(stroke
 			(width 0)
@@ -10383,6 +10750,16 @@
 			(justify left bottom)
 		)
 		(uuid "20184501-c13d-47ca-9e2b-00f883429c07")
+	)
+	(label "OUTL"
+		(at 270.51 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "221c1e1f-954e-4098-ae3f-99abd7269add")
 	)
 	(label "GPIO5"
 		(at 106.68 101.6 0)
@@ -10915,7 +11292,7 @@
 		(uuid "86c509dd-813b-42b9-b4eb-20bc25e84127")
 	)
 	(label "AMP_ENABLE"
-		(at 234.95 17.78 0)
+		(at 256.54 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11273,6 +11650,16 @@
 			(justify right bottom)
 		)
 		(uuid "c9ff6904-62c3-406b-b3b5-655f3a295496")
+	)
+	(label "OUTR"
+		(at 270.51 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccffffe4-d6d0-4e0d-a8c1-7fed573a6b5a")
 	)
 	(label "VDD33"
 		(at 224.79 21.59 180)
@@ -14776,6 +15163,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5064c52a-19a0-4eb0-8b50-fd37bed768e0")
+		(property "Reference" "H2"
+			(at 156.21 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 153.67 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:RC0402FR-0710KL")
 		(at 125.73 170.18 0)
 		(unit 1)
@@ -15155,6 +15618,82 @@
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 146.05 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b7f46c-1715-4333-a035-142002bbe67e")
+		(property "Reference" "H1"
+			(at 148.59 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 148.59 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 146.05 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 146.05 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17024,6 +17563,82 @@
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 146.05 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78595246-af31-47ea-a795-0ab4b9ec80fe")
+		(property "Reference" "H3"
+			(at 148.59 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 148.59 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -19304,6 +19919,125 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:PJ-320D")
+		(at 254 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b51c1b22-9b98-4ecf-9326-2d07e0ad8c87")
+		(property "Reference" "CN2"
+			(at 251.59 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-320D"
+			(at 251.59 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-SMD_PJ-320D-1"
+			(at 254 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+			(at 254 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 254 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PJ-320D"
+			(at 254 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C431535"
+			(at 254 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "25ad4ef7-132f-45f7-b4c2-3195c09dfa14")
+		)
+		(pin "3"
+			(uuid "4ec3bfdf-a32f-4978-95d8-856b53bc9a79")
+		)
+		(pin "2"
+			(uuid "90b3c1ad-dec4-4a1e-a729-b0768ad2263e")
+		)
+		(pin "1"
+			(uuid "23899dd5-4ff6-44bc-8b8b-016f6ecdf5ce")
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 156.21 0)
 		(unit 1)
@@ -19797,6 +20531,84 @@
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16fc006-3226-441b-9627-2d38f571f6b4")
+		(property "Reference" "#PWR049"
+			(at 271.78 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "208fa497-e27f-45c0-b640-8db36d717828")
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -21067,6 +21879,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1777c7-8e02-41e0-ae9f-7095dd76fc2e")
+		(property "Reference" "H4"
+			(at 156.21 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 186.69 0)
 		(unit 1)
@@ -22174,6 +23062,119 @@
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:0402WGF0000TCE")
+		(at 240.03 16.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f419598a-f2cd-4df3-90df-e3f008fe68cb")
+		(property "Reference" "R8"
+			(at 240.03 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGF0000TCE"
+			(at 240.03 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 240.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+			(at 240.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0Ω (0R0) ±1%"
+			(at 240.03 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 240.03 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 240.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66ef7542-19a8-4962-92bb-794a619a89f3")
+		)
+		(pin "2"
+			(uuid "a33968ce-08b2-4d97-8104-643854239d8a")
+		)
+		(instances
+			(project "speek_rx"
+				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
