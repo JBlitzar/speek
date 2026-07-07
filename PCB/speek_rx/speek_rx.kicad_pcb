@@ -22047,21 +22047,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 206.25 54.5 0)
-		(layer "F.SilkS")
-		(uuid "2bb964aa-6659-4dfa-b38b-814e050188ad")
-		(effects
-			(font
-				(size 1 0.75)
-				(thickness 0.1875)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "GP25"
-		(at 206.5 46.75 0)
+		(at 201 46.75 0)
 		(layer "F.SilkS")
 		(uuid "0ce4e4b2-254c-486c-913c-a82cc7390894")
 		(effects
@@ -22073,21 +22060,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DIN"
-		(at 206.5 49.25 0)
-		(layer "F.SilkS")
-		(uuid "af3973ad-87a1-46a0-8f9e-506ce43310f4")
-		(effects
-			(font
-				(size 1 0.75)
-				(thickness 0.1875)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "BCK"
-		(at 206.5 51.75 0)
+		(at 201.75 52 0)
 		(layer "F.SilkS")
 		(uuid "ff90fe1a-b0f0-4e99-843c-f13bfab2ad0e")
 		(effects
@@ -22097,6 +22071,32 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 201.75 54.5 0)
+		(layer "F.SilkS")
+		(uuid "2bb964aa-6659-4dfa-b38b-814e050188ad")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DIN"
+		(at 204 49.25 0)
+		(layer "F.SilkS")
+		(uuid "af3973ad-87a1-46a0-8f9e-506ce43310f4")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "Headphones"
@@ -24963,6 +24963,14 @@
 		(uuid "0fb9c0c3-5937-4ad3-a1a5-34feeb263465")
 	)
 	(segment
+		(start 167.41 55.34)
+		(end 167.5 55.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "140ff2dc-bc34-4a6d-8b67-f0d4af84d336")
+	)
+	(segment
 		(start 172.15 89.705)
 		(end 172.15 88.2)
 		(width 0.2)
@@ -25057,6 +25065,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "3cd04f36-7059-4b1b-921b-4a72b0025a33")
+	)
+	(segment
+		(start 167 55.34)
+		(end 167.41 55.34)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "3cf42553-8581-4e9a-98c0-fe7a02377f46")
 	)
 	(segment
 		(start 176 53)
@@ -25283,6 +25299,14 @@
 		(uuid "adb57b5b-b463-4015-b6b0-2d4b9eba1a5c")
 	)
 	(segment
+		(start 167 55.34)
+		(end 167.04 55.34)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "b478d2cb-0975-4b3b-82d3-1a7424576b84")
+	)
+	(segment
 		(start 193.25 76.75)
 		(end 193.25 78)
 		(width 0.2)
@@ -25316,7 +25340,7 @@
 	)
 	(segment
 		(start 166.5 55.34)
-		(end 167.04 55.34)
+		(end 167 55.34)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -25706,6 +25730,14 @@
 		(free yes)
 		(net "GND")
 		(uuid "b0eabf6a-f302-4358-a8b3-46dd8fe37c70")
+	)
+	(via
+		(at 167.5 55.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "b1a7a441-2f99-4ab2-b034-cdf070e8b26f")
 	)
 	(via
 		(at 184 51)
