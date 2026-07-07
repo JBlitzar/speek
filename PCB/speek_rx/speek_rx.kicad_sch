@@ -14674,7 +14674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e75dee-82f5-4140-9e4c-872b8e5237a6")
-		(property "Reference" "SW2"
+		(property "Reference" "EN1"
 			(at 76.2 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14775,7 +14775,7 @@
 		(instances
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
-					(reference "SW2")
+					(reference "EN1")
 					(unit 1)
 				)
 			)
@@ -15510,7 +15510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "417f298b-3445-4e30-8ae6-20c16a7ff08d")
-		(property "Reference" "SW1"
+		(property "Reference" "BOOT1"
 			(at 48.26 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15611,7 +15611,7 @@
 		(instances
 			(project "speek_rx"
 				(path "/75a8527f-6d13-4893-9d8d-0dff56ab3f3e"
-					(reference "SW1")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
