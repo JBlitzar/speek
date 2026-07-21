@@ -785,7 +785,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:25PX4700MEFC16X25"
+		(symbol "lcsc:50PX4700MEFC18X40"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(property "Value" "25PX4700MEFC16X25"
+			(property "Value" "50PX4700MEFC18X40"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -811,7 +811,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CAP-TH_BD16.0-P7.50-D1.2-FD"
+			(property "Footprint" "easyeda2kicad:CAP-TH_BD18.0-P7.50-D0.8-FD"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -822,7 +822,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C1601148.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5115284.pdf"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -855,7 +855,7 @@
 					)
 				)
 			)
-			(property "MPN" "25PX4700MEFC16X25"
+			(property "MPN" "50PX4700MEFC18X40"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -866,7 +866,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C1601148"
+			(property "LCSC Part" "C5115284"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -877,7 +877,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Pre-ordered RLCs"
+			(property "ki_keywords" "Aluminum Electrolytic Capacitors - Leaded"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -888,7 +888,7 @@
 					)
 				)
 			)
-			(symbol "25PX4700MEFC16X25_0_1"
+			(symbol "50PX4700MEFC18X40_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.51 0)
@@ -3324,119 +3324,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:25PX4700MEFC16X25")
-		(at 86.36 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e6aef09-25c5-4679-a53a-73c77f92ca5d")
-		(property "Reference" "U3"
-			(at 86.36 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "25PX4700MEFC16X25"
-			(at 86.36 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_BD16.0-P7.50-D1.2-FD"
-			(at 86.36 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1601148.pdf"
-			(at 86.36 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Rubycon(红宝石)"
-			(at 86.36 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "25PX4700MEFC16X25"
-			(at 86.36 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1601148"
-			(at 86.36 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58193e21-52bb-47f7-9b7e-4e183193188f")
-		)
-		(pin "2"
-			(uuid "56cf53a7-2fa4-4558-972d-98ff0bb1802d")
-		)
-		(instances
-			(project "speek_psu"
-				(path "/bcf25c71-18d6-4f6b-bd08-452a12b4241a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 129.54 100.33 0)
 		(unit 1)
@@ -5297,6 +5184,119 @@
 			(project "speek_psu"
 				(path "/bcf25c71-18d6-4f6b-bd08-452a12b4241a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:50PX4700MEFC18X40")
+		(at 86.36 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8b712c02-038d-4b2d-a895-aa2b0e13be2f")
+		(property "Reference" "U5"
+			(at 86.36 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50PX4700MEFC18X40"
+			(at 86.36 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-TH_BD18.0-P7.50-D0.8-FD"
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5115284.pdf"
+			(at 86.36 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Rubycon(红宝石)"
+			(at 86.36 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "50PX4700MEFC18X40"
+			(at 86.36 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5115284"
+			(at 86.36 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d5f5cace-5112-449d-922b-d8b4ed7311de")
+		)
+		(pin "1"
+			(uuid "1a95dd94-cccc-46ea-9b75-02d0483f384a")
+		)
+		(instances
+			(project "speek_psu"
+				(path "/bcf25c71-18d6-4f6b-bd08-452a12b4241a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
