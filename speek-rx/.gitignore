@@ -26,3 +26,8 @@ fp-info-cache
 *.dsn
 *.ses
 /PCB/speek_rx/.history
+
+*/.cache/*
+*/.zed/*
+.clangd
+compile_commands.json
