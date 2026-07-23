@@ -7909,6 +7909,16 @@
 		)
 		(uuid "ff81f725-676a-4883-b059-13a98506f1b1")
 	)
+	(label "VCC"
+		(at 294.64 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03a709ff-a7e8-42c8-9970-1e8c4069f481")
+	)
 	(label "_MUTE"
 		(at 53.34 71.12 0)
 		(effects
@@ -8448,16 +8458,6 @@
 			(justify left bottom)
 		)
 		(uuid "db251a80-d779-4897-af84-8498443db948")
-	)
-	(label "_VOUT"
-		(at 294.64 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e04c7fa2-c8df-4fd2-a3f5-0fadb6420ab3")
 	)
 	(label "AMP_PL"
 		(at 327.66 153.67 180)
