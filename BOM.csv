@@ -1,0 +1,30 @@
+Item,Link,Extended Cost,Notes
+Notes,N/A,0,Will use some thick wire (already own) for all PSU bodge jobs. Speek RX must be 1mm thick PCB for antenna impedence matching! Subwoofer needs 1 cubic foot enclosure.
+U.FL antenna,TBD,0,get this if the ceramic antenna doesnt work
+24v 6A PSU,https://www.amazon.com/Supply-Adapter-100-240V-Transformers-Security/dp/B0CGHSTDYM,16,
+XT60 male ,https://www.lcsc.com/product-detail/C98733.html,5,
+XT60 female ,https://www.lcsc.com/product-detail/C98734.html,5,
+JST VH connectors,https://www.amazon.com/pzsmocn-Extension-Accessories-Connector-Pre-Crimped/dp/B0DNPY3G91/,10,
+preliminary subwoofer,https://www.parts-express.com/GRS-8SW-4-8-Poly-Cone-Subwoofer-4-Ohm-292-480?quantity=1,24,"Gamut runs $20 thru $50: see https://www.parts-express.com/speaker-components/hi-fi-woofers-subwoofers-midranges-tweeters/subwoofer-drivers/nominaldiameter/5-1--SLASH--4,6,6-1--SLASH--2,8?order=base_price:asc&base_price=0.00to78.49 ; pay $50 for fancier one https://www.parts-express.com/Dayton-Audio-SD215A-88-8-DVC-Subwoofer-295-484?quantity=1"
+preliminary 2x woofers,https://www.parts-express.com/6-1-2-Poly-Cone-Woofer-4-Ohm-299-609?quantity=1,19.96,https://www.parts-express.com/reviewrating/4to5?order=custitem_pe_search_ranking:desc&keywords=woofers&base_price=0.00to40.81 . More expensive non-buyout option is https://www.parts-express.com/GRS-8PR-8-8-Poly-Cone-Rubber-Surround-Woofer-292-428?quantity=1
+preliminary 2x tweeters,https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1,21.96,https://www.parts-express.com/reviewrating/4to5?keywords=tweeter&base_price=0.00to24.71 ; There exists a $4 per listing
+47uF caps,https://www.lcsc.com/product-detail/C397097.html,0.76,Buying straight from LCSC to hand-solder instead of PCBAing
+22uF caps,https://www.lcsc.com/product-detail/C216548.html,0.53,Buying straight from LCSC to hand-solder instead of PCBAing
+10uF caps,https://www.lcsc.com/product-detail/C192100.html,0.74,Buying straight from LCSC to hand-solder instead of PCBAing
+6.8uF film caps,https://www.lcsc.com/product-detail/C21390242.html,1.87,Buying straight from LCSC to hand-solder instead of PCBAing
+1mH inductor,https://www.lcsc.com/product-detail/C53190548.html,2.81,Buying straight from LCSC to hand-solder instead of PCBAing
+220uH inductor,https://www.lcsc.com/product-detail/C22358491.html,0.97,Buying straight from LCSC to hand-solder instead of PCBAing
+150uH inductor,https://www.lcsc.com/product-detail/C3011544.html,1.02,Buying straight from LCSC to hand-solder instead of PCBAing
+2x 4700uF cap,https://www.lcsc.com/product-detail/C5115284.html,3.86,Buying straight from LCSC to hand-solder instead of PCBAing
+10x screw terminal,https://www.lcsc.com/product-detail/C695629.html,0.84,Buying straight from LCSC to hand-solder instead of PCBAing
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Total,,115.32,
