@@ -1,2 +1,0 @@
-# speek-split
-Splitter
