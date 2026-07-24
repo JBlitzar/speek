@@ -68,7 +68,24 @@ for entry in "${BOARDS[@]}"; do
         --quality high --perspective --floor \
         --width 1600 --height 1200 \
         --rotate '-30,0,0' --background opaque "$pcb" >/dev/null
+
+    echo ">> $slug: top-down banner tile"
+    "$KICAD_CLI" pcb render --output "$IMG_DIR/_banner_${slug}.png" \
+        --quality high --side top \
+        --width 1600 --height 1600 \
+        --background transparent "$pcb" >/dev/null
 done
+
+echo ">> banner"
+STITCH="$(command -v magick || command -v convert)"
+tiles=()
+for entry in "${BOARDS[@]}"; do
+    IFS='|' read -r slug _ _ <<<"$entry"
+    [[ -f "$IMG_DIR/_banner_${slug}.png" ]] && tiles+=("$IMG_DIR/_banner_${slug}.png")
+done
+"$STITCH" "${tiles[@]}" -trim +repage -background none -gravity center +append \
+    -background white -flatten "$IMG_DIR/banner.png"
+rm -f "${tiles[@]}"
 
 python3 - "$REPO_ROOT" <<'PY'
 import csv, os, sys
@@ -140,6 +157,15 @@ sections = {
 
 with open(readme_path) as f:
     lines = f.read().split("\n")
+
+lines = [l for l in lines if "docs/banner.png" not in l]
+if img("docs/banner.png"):
+    for idx, l in enumerate(lines):
+        if l.startswith("# ") and not l.startswith("## "):
+            lines[idx+1:idx+1] = ["", "![speek](docs/banner.png)"]
+            break
+    else:
+        lines = ["![speek](docs/banner.png)", ""] + lines
 
 GEN_PREFIXES = ("### ", "|", "![", "[View on KiCanvas]", "_No")
 

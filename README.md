@@ -1,5 +1,7 @@
 # speek
 
+![speek](docs/banner.png)
+
 A modular speaker system. Right now, it has a couple of boards:
 
 - Speek Amp: This is the flagship amplifier. It's a hybrid 2.1 design using the TPA3116D2 chip. It's built to handle 4Ω speakers. It outputs lines for a mono subwoofer, two stereo woofers, and two stereo tweeters.
@@ -18,25 +20,26 @@ Why the monorepo?
 
 Because it's one project even though it has multiple boards. idk, Madhav reccommended it.
 
-- A good README
-- Source files for your project
+Checklist:
+
+- [x] A good README
+- [x] Source files for your project
     - This includes hardware design, firmware, 3D assemblies, etc
-- Production files (if applicable)
+- [x] Production files (if applicable)
     - You'll find gerbers, fabrication BOMs, and PnP files at the following locations:
       - Speek Amp: [speek-amp/PCB/speek_amp/production_real](speek-amp/PCB/speek_amp/production_real)
       - Speek RX: [speek-rx/PCB/speek_rx/production_real](speek-rx/PCB/speek_rx/production_real)
       - Speek PSU: [speek-psu/PCB/speek_psu/production_real](speek-psu/PCB/speek_psu/production_real)
-- JOURNAL.md if journalling on Git
-  - N/A
-- BOM.csv complete with functioning links (where applicable)
-[x] A short description of what your project is
-[x] A couple sentences on why you made the project
-- PICTURES OF YOUR PROJECT
-- A screenshot of a full 3D model with your project
-- A screenshot of your PCB, if you have one
-- A screenshot of your schematic, if you have one
-- A wiring diagram, if you're doing any wiring that isn't on a PCB
-- A BOM in table format at the end of the README
+- \[N/A\] JOURNAL.md if journalling on Git
+- [x] BOM.csv complete with functioning links (where applicable)
+- [x] A short description of what your project is
+- [x] A couple sentences on why you made the project
+- [x] PICTURES OF YOUR PROJECT
+- [x] A screenshot of a full 3D model with your project (see [banner.png](docs/banner.png))
+- [x] A screenshot of your PCB, if you have one
+- [x] A screenshot of your schematic, if you have one
+- [x] A wiring diagram, if you're doing any wiring that isn't on a PCB
+- [x] A BOM in table format at the end of the README
 
 ## How to use?
 
@@ -48,7 +51,11 @@ cd firmware
 pio run -t upload
 ```
 
-For wiring your speaker drivers, the silkscreen should coach you through that. I've also got a wiring diagram. 
+For wiring your speaker drivers, the silkscreen should coach you through that. 
+
+## Wiring Diagram
+
+![Wiring Diagram](docs/wiring_diagram.png)
 
 ## Gallery
 
