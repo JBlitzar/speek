@@ -440,6 +440,850 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc:0402B102K500NT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402B102K500NT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1nF (102) ±10% 50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402B102K500NT"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C1523"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402B102K500NT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:0402WGF1002TCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGF1002TCE"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C25744.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402WGF1002TCE"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C25744"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF1002TCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:0402WGF1003TCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGF1003TCE"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C25741.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402WGF1003TCE"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C25741"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF1003TCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:0603B103K500NT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603B103K500NT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603B103K500NT"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C57112"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603B103K500NT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:0603WAF4702T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF4702T5E"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25819.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FOJAN(富捷)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF4702T5E"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C25819"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF4702T5E_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:0603WAF7502T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -963,388 +1807,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:CC0402KRX7R7BB104"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0402KRX7R7BB104"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0402KRX7R7BB104"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60474"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0402KRX7R7BB104_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:CC0603KRX7R9BB103"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0603KRX7R9BB103"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0603KRX7R9BB103"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C100042"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0603KRX7R9BB103_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:CC0603KRX7R9BB104"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1727,7 +2189,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:CGA0402X5R105M100GT"
+		(symbol "lcsc:CL05A105KA5NQNC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1743,7 +2205,7 @@
 					)
 				)
 			)
-			(property "Value" "CGA0402X5R105M100GT"
+			(property "Value" "CL05A105KA5NQNC"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1764,7 +2226,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1797,7 +2259,7 @@
 					)
 				)
 			)
-			(property "MPN" "CGA0402X5R105M100GT"
+			(property "MPN" "CL05A105KA5NQNC"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1808,7 +2270,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C22399609"
+			(property "LCSC Part" "C52923"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1819,7 +2281,7 @@
 					)
 				)
 			)
-			(symbol "CGA0402X5R105M100GT_0_1"
+			(symbol "CL05A105KA5NQNC_0_1"
 				(polyline
 					(pts
 						(xy -0.51 0) (xy -2.54 0)
@@ -1907,7 +2369,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:CL05B102KB5NNNC"
+		(symbol "lcsc:CL05B104KB54PNC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1923,7 +2385,7 @@
 					)
 				)
 			)
-			(property "Value" "CL05B102KB5NNNC"
+			(property "Value" "CL05B104KB54PNC"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1944,7 +2406,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1955,7 +2417,7 @@
 					)
 				)
 			)
-			(property "Description" "1nF (102) ±10% 50V"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1966,7 +2428,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "SAMSUNG(三星)"
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1977,7 +2439,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL05B102KB5NNNC"
+			(property "MPN" "CL05B104KB54PNC"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1988,7 +2450,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C14442"
+			(property "LCSC Part" "C307331"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2010,10 +2472,10 @@
 					)
 				)
 			)
-			(symbol "CL05B102KB5NNNC_0_1"
+			(symbol "CL05B104KB54PNC_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.51 0)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -2025,7 +2487,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
+						(xy -0.51 -2.03) (xy -0.51 2.03)
 					)
 					(stroke
 						(width 0)
@@ -2049,7 +2511,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.51 0) (xy 1.27 0)
+						(xy 2.54 0) (xy 0.51 0)
 					)
 					(stroke
 						(width 0)
@@ -2059,8 +2521,8 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at -3.81 0 0)
+				(pin unspecified line
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2077,8 +2539,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 0 180)
+				(pin unspecified line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2645,160 +3107,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:FRC0603F4702TS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FRC0603F4702TS"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2907042.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "FRC0603F4702TS"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2907042"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRC0603F4702TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:PDMTAT068125-151MLU"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3218,523 +3526,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:PMEG060V100EPDZ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PMEG060V100EPDZ"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOT1289_L5.8-W4.4-LS6.5-RD"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-PMEG060V100EPDZ_C552792.html"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Nexperia(安世)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "PMEG060V100EPDZ"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C552792"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Schottky Barrier Diodes (SBD)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMEG060V100EPDZ_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.52 2.03) (xy 1.78 2.03) (xy 1.78 1.52) (xy -2.03 1.52) (xy -2.03 1.02) (xy -1.78 1.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.52 -1.27) (xy 0 1.27) (xy -1.78 -1.27) (xy 1.52 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:RC0402FR-07100KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0402FR-07100KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0402FR-07100KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60491"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-07100KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:RC0402FR-0710KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0402FR-0710KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0402FR-0710KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60490"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-0710KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5628,12 +5419,6 @@
 		(uuid "b98350f5-45fd-4347-bd6b-39991182eb43")
 	)
 	(junction
-		(at 265.43 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bca4e935-e5ce-4e78-8ce4-025c2b8b3583")
-	)
-	(junction
 		(at 158.75 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5650,12 +5435,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6d082b5-4e57-4b93-b7dc-d5cf6ebc9335")
-	)
-	(junction
-		(at 265.43 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8e8f2a7-ddc4-43b6-83ae-710b19a12bde")
 	)
 	(junction
 		(at 179.07 232.41)
@@ -6012,6 +5791,16 @@
 			(type default)
 		)
 		(uuid "225a40c7-2b19-4189-a100-d4eb344b3dec")
+	)
+	(wire
+		(pts
+			(xy 275.59 36.83) (xy 275.59 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22650385-3b90-42bb-8b00-f4cea844f1c2")
 	)
 	(wire
 		(pts
@@ -6375,7 +6164,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 36.83) (xy 265.43 36.83)
+			(xy 259.08 36.83) (xy 275.59 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6612,16 +6401,6 @@
 			(type default)
 		)
 		(uuid "724a65d6-e0c6-4755-9a6f-4e938eabea0b")
-	)
-	(wire
-		(pts
-			(xy 265.43 20.32) (xy 265.43 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72c0a463-e5d7-4355-82cd-d930f852ea42")
 	)
 	(wire
 		(pts
@@ -6905,16 +6684,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 36.83) (xy 265.43 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e705189-e91e-4478-bcab-6a4f2efdd52d")
-	)
-	(wire
-		(pts
 			(xy 179.07 209.55) (xy 187.96 209.55)
 		)
 		(stroke
@@ -6922,16 +6691,6 @@
 			(type default)
 		)
 		(uuid "8fdeff92-a198-4caa-8cbf-27b611ed259e")
-	)
-	(wire
-		(pts
-			(xy 265.43 36.83) (xy 265.43 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91969b8f-4e47-4e83-b410-771d98c815e2")
 	)
 	(wire
 		(pts
@@ -7022,16 +6781,6 @@
 			(type default)
 		)
 		(uuid "9fa3ec87-6300-4e86-89ef-19a5673d3502")
-	)
-	(wire
-		(pts
-			(xy 265.43 22.86) (xy 265.43 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c008fc-d183-4b06-a47d-831a15949b04")
 	)
 	(wire
 		(pts
@@ -7375,7 +7124,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 22.86) (xy 265.43 22.86)
+			(xy 259.08 22.86) (xy 275.59 22.86)
 		)
 		(stroke
 			(width 0)
@@ -10103,7 +9852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 81.28 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -10146,7 +9895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10179,7 +9928,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 81.28 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10190,7 +9939,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 81.28 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10217,7 +9966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 171.45 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -10258,7 +10007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 171.45 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +10040,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 171.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10302,7 +10051,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10329,7 +10078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 35.56 176.53 270)
 		(unit 1)
 		(body_style 1)
@@ -10373,7 +10122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 25.4 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10406,7 +10155,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 20.32 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10417,7 +10166,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 17.78 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-07100KL")
+		(lib_id "lcsc:0402WGF1003TCE")
 		(at 59.69 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -10486,7 +10235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C25741.html"
 			(at 59.69 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10519,7 +10268,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
+		(property "MPN" "0402WGF1003TCE"
 			(at 59.69 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10530,7 +10279,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C25741"
 			(at 59.69 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -10747,7 +10496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0603KRX7R9BB103")
+		(lib_id "lcsc:0603B103K500NT")
 		(at 187.96 228.6 90)
 		(unit 1)
 		(body_style 1)
@@ -10791,7 +10540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
 			(at 198.12 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10824,7 +10573,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB103"
+		(property "MPN" "0603B103K500NT"
 			(at 203.2 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10835,7 +10584,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C57112"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10940,7 +10689,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-0710KL")
+		(lib_id "lcsc:0402WGF1002TCE")
 		(at 236.22 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -10982,7 +10731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C25744.html"
 			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11015,7 +10764,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 236.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11026,7 +10775,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 236.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11129,7 +10878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 191.77 199.39 0)
 		(unit 1)
 		(body_style 1)
@@ -11170,7 +10919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 191.77 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11203,7 +10952,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 191.77 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -11214,7 +10963,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 191.77 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11319,7 +11068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 191.77 232.41 0)
 		(unit 1)
 		(body_style 1)
@@ -11360,7 +11109,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 191.77 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -11393,7 +11142,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 191.77 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -11404,7 +11153,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 191.77 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -11592,7 +11341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0402KRX7R7BB104")
+		(lib_id "lcsc:CL05B104KB54PNC")
 		(at 46.99 26.67 90)
 		(unit 1)
 		(body_style 1)
@@ -11636,7 +11385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 			(at 57.15 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11669,7 +11418,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 62.23 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11680,7 +11429,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C307331"
 			(at 64.77 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +11954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0603KRX7R9BB103")
+		(lib_id "lcsc:0603B103K500NT")
 		(at 187.96 205.74 90)
 		(unit 1)
 		(body_style 1)
@@ -12249,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
 			(at 198.12 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12282,7 +12031,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB103"
+		(property "MPN" "0603B103K500NT"
 			(at 203.2 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12293,7 +12042,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C57112"
 			(at 205.74 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12660,7 +12409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-07100KL")
+		(lib_id "lcsc:0402WGF1003TCE")
 		(at 81.28 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -12702,7 +12451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C25741.html"
 			(at 81.28 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12735,7 +12484,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
+		(property "MPN" "0402WGF1003TCE"
 			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12746,7 +12495,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C25741"
 			(at 81.28 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12850,7 +12599,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:FRC0603F4702TS")
+		(lib_id "lcsc:0603WAF4702T5E")
 		(at 39.37 170.18 90)
 		(unit 1)
 		(body_style 1)
@@ -12894,7 +12643,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907042.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25819.pdf"
 			(at 49.53 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12927,7 +12676,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F4702TS"
+		(property "MPN" "0603WAF4702T5E"
 			(at 54.61 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12938,7 +12687,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2907042"
+		(property "LCSC Part" "C25819"
 			(at 57.15 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13121,7 +12870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0402KRX7R7BB104")
+		(lib_id "lcsc:CL05B104KB54PNC")
 		(at 130.81 147.32 90)
 		(unit 1)
 		(body_style 1)
@@ -13165,7 +12914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 			(at 140.97 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13198,7 +12947,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 146.05 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13209,7 +12958,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C307331"
 			(at 148.59 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13427,7 +13176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 45.72 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -13470,7 +13219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13503,7 +13252,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13514,7 +13263,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 45.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13747,7 +13496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 69.85 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -13790,7 +13539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 69.85 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13823,7 +13572,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 69.85 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13834,7 +13583,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13861,7 +13610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 66.04 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -13904,7 +13653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 66.04 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13937,7 +13686,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 66.04 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13948,7 +13697,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 66.04 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13969,122 +13718,6 @@
 			(project "speek_amp"
 				(path "/f44fef8a-a473-4113-8c2c-ab86f69ad3c3"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:PMEG060V100EPDZ")
-		(at 270.51 38.1 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71d82360-c629-4470-8d9d-1f7c45eca53c")
-		(property "Reference" "D1"
-			(at 270.255 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG060V100EPDZ"
-			(at 270.255 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT1289_L5.8-W4.4-LS6.5-RD"
-			(at 257.81 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-PMEG060V100EPDZ_C552792.html"
-			(at 255.27 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 252.73 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PMEG060V100EPDZ"
-			(at 250.19 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C552792"
-			(at 247.65 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8cf55cdc-9689-4f80-9d50-81d671c9967f")
-		)
-		(pin "3"
-			(uuid "7c6fdf74-2167-4bc4-a3fa-9df06ff5c231")
-		)
-		(pin "1"
-			(uuid "6e7b1d35-856e-48b6-81c9-4183ea599628")
-		)
-		(instances
-			(project "speek_amp"
-				(path "/f44fef8a-a473-4113-8c2c-ab86f69ad3c3"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14362,122 +13995,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:PMEG060V100EPDZ")
-		(at 270.51 22.86 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a473c1a-b657-4bf9-9c56-054548476eba")
-		(property "Reference" "D2"
-			(at 270.255 15.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG060V100EPDZ"
-			(at 270.255 17.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT1289_L5.8-W4.4-LS6.5-RD"
-			(at 257.81 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-PMEG060V100EPDZ_C552792.html"
-			(at 255.27 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PMEG060V100EPDZ"
-			(at 250.19 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C552792"
-			(at 247.65 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "efc4f2a0-d1d1-4d3f-84c1-a0473fdf9436")
-		)
-		(pin "3"
-			(uuid "9d7b1119-9d1f-44e3-af63-52234a647c1d")
-		)
-		(pin "1"
-			(uuid "86143abd-0f7d-4086-b042-17ffcb7d1b39")
-		)
-		(instances
-			(project "speek_amp"
-				(path "/f44fef8a-a473-4113-8c2c-ab86f69ad3c3"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 173.99 0)
 		(unit 1)
@@ -14556,7 +14073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0603KRX7R9BB103")
+		(lib_id "lcsc:0603B103K500NT")
 		(at 165.1 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -14600,7 +14117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
 			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14633,7 +14150,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB103"
+		(property "MPN" "0603B103K500NT"
 			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14644,7 +14161,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C57112"
 			(at 182.88 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14671,7 +14188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 172.72 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -14712,7 +14229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14745,7 +14262,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14756,7 +14273,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 172.72 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15093,7 +14610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 69.85 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -15136,7 +14653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 69.85 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15169,7 +14686,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 69.85 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15180,7 +14697,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 69.85 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15637,7 +15154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-07100KL")
+		(lib_id "lcsc:0402WGF1003TCE")
 		(at 48.26 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -15679,7 +15196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C25741.html"
 			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15712,7 +15229,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
+		(property "MPN" "0402WGF1003TCE"
 			(at 48.26 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15723,7 +15240,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C25741"
 			(at 48.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16112,7 +15629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 130.81 31.75 90)
 		(unit 1)
 		(body_style 1)
@@ -16153,7 +15670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 140.97 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16186,7 +15703,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 146.05 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16197,7 +15714,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 148.59 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16610,7 +16127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 142.24 147.32 90)
 		(unit 1)
 		(body_style 1)
@@ -16651,7 +16168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 152.4 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16684,7 +16201,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 157.48 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16695,7 +16212,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 160.02 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16958,7 +16475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0603KRX7R9BB103")
+		(lib_id "lcsc:0603B103K500NT")
 		(at 166.37 100.33 90)
 		(unit 1)
 		(body_style 1)
@@ -17002,7 +16519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
 			(at 176.53 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17035,7 +16552,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB103"
+		(property "MPN" "0603B103K500NT"
 			(at 181.61 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17046,7 +16563,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C57112"
 			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17492,7 +17009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 171.45 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -17533,7 +17050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 171.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17566,7 +17083,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17577,7 +17094,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 171.45 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17908,7 +17425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0402KRX7R7BB104")
+		(lib_id "lcsc:CL05B104KB54PNC")
 		(at 114.3 87.63 90)
 		(unit 1)
 		(body_style 1)
@@ -17952,7 +17469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17985,7 +17502,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17996,7 +17513,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C307331"
 			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18138,7 +17655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-0710KL")
+		(lib_id "lcsc:0402WGF1002TCE")
 		(at 60.96 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -18182,7 +17699,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C25744.html"
 			(at 71.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18215,7 +17732,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 76.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18226,7 +17743,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18448,7 +17965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-07100KL")
+		(lib_id "lcsc:0402WGF1003TCE")
 		(at 69.85 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -18490,7 +18007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C25741.html"
 			(at 69.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18523,7 +18040,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
+		(property "MPN" "0402WGF1003TCE"
 			(at 69.85 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18534,7 +18051,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C25741"
 			(at 69.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18801,7 +18318,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0603KRX7R9BB103")
+		(lib_id "lcsc:0603B103K500NT")
 		(at 166.37 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -18845,7 +18362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
 			(at 176.53 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18878,7 +18395,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB103"
+		(property "MPN" "0603B103K500NT"
 			(at 181.61 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18889,7 +18406,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C57112"
 			(at 184.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19107,7 +18624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 74.93 80.01 90)
 		(unit 1)
 		(body_style 1)
@@ -19148,7 +18665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19181,7 +18698,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19192,7 +18709,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19334,7 +18851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0603KRX7R9BB103")
+		(lib_id "lcsc:0603B103K500NT")
 		(at 163.83 36.83 90)
 		(unit 1)
 		(body_style 1)
@@ -19378,7 +18895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C100042.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
 			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19411,7 +18928,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB103"
+		(property "MPN" "0603B103K500NT"
 			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19422,7 +18939,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C57112"
 			(at 181.61 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19949,7 +19466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 125.73 87.63 90)
 		(unit 1)
 		(body_style 1)
@@ -19990,7 +19507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20023,7 +19540,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 140.97 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20034,7 +19551,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 143.51 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20061,7 +19578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 137.16 203.2 90)
 		(unit 1)
 		(body_style 1)
@@ -20102,7 +19619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 147.32 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -20135,7 +19652,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 152.4 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -20146,7 +19663,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 154.94 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -20173,7 +19690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0402FR-0710KL")
+		(lib_id "lcsc:0402WGF1002TCE")
 		(at 236.22 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -20215,7 +19732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C25744.html"
 			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20248,7 +19765,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -20259,7 +19776,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C25744"
 			(at 236.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20593,7 +20110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 24.13 60.96 270)
 		(unit 1)
 		(body_style 1)
@@ -20637,7 +20154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 13.97 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20670,7 +20187,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 8.89 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20681,7 +20198,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 6.35 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20901,7 +20418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0402KRX7R7BB104")
+		(lib_id "lcsc:CL05B104KB54PNC")
 		(at 58.42 142.24 90)
 		(unit 1)
 		(body_style 1)
@@ -20945,7 +20462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 			(at 68.58 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -20978,7 +20495,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 73.66 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -20989,7 +20506,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C307331"
 			(at 76.2 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21016,7 +20533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA0402X5R105M100GT")
+		(lib_id "lcsc:CL05A105KA5NQNC")
 		(at 57.15 163.83 0)
 		(unit 1)
 		(body_style 1)
@@ -21059,7 +20576,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22399609.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52923.pdf"
 			(at 57.15 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21092,7 +20609,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA0402X5R105M100GT"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 57.15 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -21103,7 +20620,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22399609"
+		(property "LCSC Part" "C52923"
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -21867,7 +21384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0402KRX7R7BB104")
+		(lib_id "lcsc:CL05B104KB54PNC")
 		(at 125.73 203.2 90)
 		(unit 1)
 		(body_style 1)
@@ -21911,7 +21428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 			(at 135.89 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -21944,7 +21461,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 140.97 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -21955,7 +21472,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C307331"
 			(at 143.51 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -22331,7 +21848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL05B102KB5NNNC")
+		(lib_id "lcsc:0402B102K500NT")
 		(at 172.72 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -22372,7 +21889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B102KB5NNNC_1nF-102-10-50V_C14442.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_0402B102K500NT_1nF-102-10-50V_C1523.html"
 			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22405,7 +21922,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B102KB5NNNC"
+		(property "MPN" "0402B102K500NT"
 			(at 172.72 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -22416,7 +21933,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14442"
+		(property "LCSC Part" "C1523"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22714,7 +22231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CC0402KRX7R7BB104")
+		(lib_id "lcsc:CL05B104KB54PNC")
 		(at 119.38 31.75 90)
 		(unit 1)
 		(body_style 1)
@@ -22758,7 +22275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C307331.html"
 			(at 129.54 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -22791,7 +22308,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 134.62 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -22802,7 +22319,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60474"
+		(property "LCSC Part" "C307331"
 			(at 137.16 31.75 0)
 			(hide yes)
 			(show_name no)
