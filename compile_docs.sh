@@ -17,16 +17,16 @@ fi
 [[ -z "$KICAD_CLI" ]] && { echo "error: kicad-cli not found" >&2; exit 1; }
 
 svg2png() {
-    local svg="$1" png="$2" width="${3:-1800}"
+    local svg="$1" png="$2" width="${3:-1800}" bg="${4:-white}"
     if command -v rsvg-convert >/dev/null 2>&1; then
-        rsvg-convert -w "$width" -b white "$svg" -o "$png"
+        rsvg-convert -w "$width" -b "$bg" "$svg" -o "$png"
     elif command -v inkscape >/dev/null 2>&1; then
         inkscape "$svg" --export-type=png --export-width="$width" \
-            --export-background=white --export-filename="$png" >/dev/null 2>&1
+            --export-background="$bg" --export-filename="$png" >/dev/null 2>&1
     elif command -v magick >/dev/null 2>&1; then
-        magick -density 200 -background white -flatten "$svg" "$png"
+        magick -density 200 -background "$bg" -flatten "$svg" "$png"
     else
-        convert -density 200 -background white -flatten "$svg" "$png"
+        convert -density 200 -background "$bg" -flatten "$svg" "$png"
     fi
 }
 
@@ -53,14 +53,14 @@ for entry in "${BOARDS[@]}"; do
     "$KICAD_CLI" pcb export svg --output "$IMG_DIR/${slug}_fcu.svg" --mode-single \
         --layers F.Cu,F.Silkscreen,F.Mask,Edge.Cuts \
         --page-size-mode 2 --exclude-drawing-sheet "$pcb" >/dev/null
-    svg2png "$IMG_DIR/${slug}_fcu.svg" "$IMG_DIR/${slug}_fcu.png"
+    svg2png "$IMG_DIR/${slug}_fcu.svg" "$IMG_DIR/${slug}_fcu.png" 1800 "#001124"
     rm -f "$IMG_DIR/${slug}_fcu.svg"
 
     echo ">> $slug: B.Cu"
     "$KICAD_CLI" pcb export svg --output "$IMG_DIR/${slug}_bcu.svg" --mode-single \
         --layers B.Cu,B.Silkscreen,B.Mask,Edge.Cuts --mirror \
         --page-size-mode 2 --exclude-drawing-sheet "$pcb" >/dev/null
-    svg2png "$IMG_DIR/${slug}_bcu.svg" "$IMG_DIR/${slug}_bcu.png"
+    svg2png "$IMG_DIR/${slug}_bcu.svg" "$IMG_DIR/${slug}_bcu.png" 1800 "#001124"
     rm -f "$IMG_DIR/${slug}_bcu.svg"
 
     echo ">> $slug: 3D raytrace"
