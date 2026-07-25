@@ -5,12 +5,12 @@
 A modular speaker system. Right now, it has a couple of boards:
 
 - Speek Amp: This is the flagship amplifier. It's a hybrid 2.1 design using the TPA3116D2 chip. It's built to handle 4Ω speakers. It outputs lines for a mono subwoofer, two stereo woofers, and two stereo tweeters.
-- Speek RX: This is a Bluetooth audio reciever. It runs off of a qfn esp32 D0WD v3 and has a built-in headphone amp, or a normal line out for chaining.
+- Speek RX: This is a Bluetooth audio receiver. It runs off of a qfn esp32 D0WD v3 and has a built-in headphone amp, or a normal line out for chaining.
 - Speek PSU: This is a supporting PSU board. It has a USB-C PD trigger (for quick tests) and a barrel jack port for proper power (needed to power real flagship drivers). It can be used as a stable power source for pretty much anything. Note that the barrel jack supplies 24V while PD gives 20V. 
 
 On modularity:
 
-- Each board is self-contained and can be used on it's own. However, they can also all be used together. 
+- Each board is self-contained and can be used on its own. However, they can also all be used together. 
 
 **Right now, enclosure design is out of scope. This repo holds just the boards, and the boards are complete**
 
@@ -121,7 +121,7 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 
 | Item | Link | Extended Cost | Notes |
 | --- | --- | --- | --- |
-| Notes | N/A | 0 | Will use some thick wire (already own) for all PSU bodge jobs. Speek RX must be 1mm thick PCB for antenna impedence matching! Subwoofer needs 1 cubic foot enclosure. |
+| Notes | N/A | 0 | Will use some thick wire (already own) for all PSU bodge jobs. Speek RX must be 1mm thick PCB for antenna impedance matching! Subwoofer needs 1 cubic foot enclosure. |
 | U.FL antenna | TBD | 0 | get this if the ceramic antenna doesnt work |
 | 24v 6A PSU | https://www.amazon.com/Supply-Adapter-100-240V-Transformers-Security/dp/B0CGHSTDYM | 16 |  |
 | XT60 male | https://www.lcsc.com/product-detail/C98733.html | 5 |  |
