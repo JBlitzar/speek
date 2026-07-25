@@ -35,7 +35,6 @@ Checklist:
 - [x] A short description of what your project is
 - [x] A couple sentences on why you made the project
 - [x] PICTURES OF YOUR PROJECT
-- [x] A screenshot of a full 3D model with your project (see [banner.png](docs/banner.png))
 - [x] A screenshot of your PCB, if you have one
 - [x] A screenshot of your schematic, if you have one
 - [x] A wiring diagram, if you're doing any wiring that isn't on a PCB
@@ -121,25 +120,31 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 
 | Item | Link | Extended Cost | Notes |
 | --- | --- | --- | --- |
-| Notes | N/A | 0 | Will use some thick wire (already own) for all PSU bodge jobs. Speek RX must be 1mm thick PCB for antenna impedance matching! Subwoofer needs 1 cubic foot enclosure. |
+| Notes | N/A | 0 | Will use some thick wire (already own) for all PSU bodge jobs. Speek RX must be 1mm thick PCB for antenna impedence matching! Subwoofer needs 1 cubic foot enclosure. |
 | U.FL antenna | TBD | 0 | get this if the ceramic antenna doesnt work |
 | 24v 6A PSU | https://www.amazon.com/Supply-Adapter-100-240V-Transformers-Security/dp/B0CGHSTDYM | 16 |  |
 | XT60 male | https://www.lcsc.com/product-detail/C98733.html | 5 |  |
 | XT60 female | https://www.lcsc.com/product-detail/C98734.html | 5 |  |
 | JST VH connectors | https://www.amazon.com/pzsmocn-Extension-Accessories-Connector-Pre-Crimped/dp/B0DNPY3G91/ | 10 |  |
-| preliminary subwoofer | https://www.parts-express.com/GRS-8SW-4-8-Poly-Cone-Subwoofer-4-Ohm-292-480?quantity=1 | 24 | Gamut runs $20 thru $50: see https://www.parts-express.com/speaker-components/hi-fi-woofers-subwoofers-midranges-tweeters/subwoofer-drivers/nominaldiameter/5-1--SLASH--4,6,6-1--SLASH--2,8?order=base_price:asc&base_price=0.00to78.49 ; pay $50 for fancier one https://www.parts-express.com/Dayton-Audio-SD215A-88-8-DVC-Subwoofer-295-484?quantity=1 |
-| preliminary 2x woofers | https://www.parts-express.com/6-1-2-Poly-Cone-Woofer-4-Ohm-299-609?quantity=1 | 19.96 | https://www.parts-express.com/reviewrating/4to5?order=custitem_pe_search_ranking:desc&keywords=woofers&base_price=0.00to40.81 . More expensive non-buyout option is https://www.parts-express.com/GRS-8PR-8-8-Poly-Cone-Rubber-Surround-Woofer-292-428?quantity=1 |
-| preliminary 2x tweeters | https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1 | 21.96 | https://www.parts-express.com/reviewrating/4to5?keywords=tweeter&base_price=0.00to24.71 ; There exists a $4 per listing |
+| preliminary subwoofer | https://www.parts-express.com/GRS-8SW-4-8-Poly-Cone-Subwoofer-4-Ohm-292-480?quantity=1 | 24 | [Note that I'm going to pay out of pocket for speaker drivers] Gamut runs $20 thru $50: see https://www.parts-express.com/speaker-components/hi-fi-woofers-subwoofers-midranges-tweeters/subwoofer-drivers/nominaldiameter/5-1--SLASH--4,6,6-1--SLASH--2,8?order=base_price:asc&base_price=0.00to78.49 ; pay $50 for fancier one https://www.parts-express.com/Dayton-Audio-SD215A-88-8-DVC-Subwoofer-295-484?quantity=1 |
+| preliminary 2x woofers | https://www.parts-express.com/6-1-2-Poly-Cone-Woofer-4-Ohm-299-609?quantity=1 | 19.96 | [Note that I'm going to pay out of pocket for speaker drivers]  https://www.parts-express.com/reviewrating/4to5?order=custitem_pe_search_ranking:desc&keywords=woofers&base_price=0.00to40.81 . More expensive non-buyout option is https://www.parts-express.com/GRS-8PR-8-8-Poly-Cone-Rubber-Surround-Woofer-292-428?quantity=1 |
+| preliminary 2x tweeters | https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1 | 21.96 | [Note that I'm going to pay out of pocket for speaker drivers]  https://www.parts-express.com/reviewrating/4to5?keywords=tweeter&base_price=0.00to24.71 ; There exists a $4 per listing |
 | 47uF caps | https://www.lcsc.com/product-detail/C397097.html | 0.76 | Buying straight from LCSC to hand-solder instead of PCBAing |
 | 22uF caps | https://www.lcsc.com/product-detail/C216548.html | 0.53 | Buying straight from LCSC to hand-solder instead of PCBAing |
 | 10uF caps | https://www.lcsc.com/product-detail/C192100.html | 0.74 | Buying straight from LCSC to hand-solder instead of PCBAing |
 | 6.8uF film caps | https://www.lcsc.com/product-detail/C21390242.html | 1.87 | Buying straight from LCSC to hand-solder instead of PCBAing |
-| 1mH inductor | https://www.lcsc.com/product-detail/C53190548.html | 2.81 | Buying straight from LCSC to hand-solder instead of PCBAing |
-| 220uH inductor | https://www.lcsc.com/product-detail/C22358491.html | 0.97 | Buying straight from LCSC to hand-solder instead of PCBAing |
 | 150uH inductor | https://www.lcsc.com/product-detail/C3011544.html | 1.02 | Buying straight from LCSC to hand-solder instead of PCBAing |
 | 2x 4700uF cap | https://www.lcsc.com/product-detail/C5115284.html | 3.86 | Buying straight from LCSC to hand-solder instead of PCBAing |
+| 1x tht diode | https://www.lcsc.com/product-detail/C522740.html | 0.72 | Buying straight from LCSC to hand-solder instead of PCBAing |
 | 10x screw terminal | https://www.lcsc.com/product-detail/C695629.html | 0.84 | Buying straight from LCSC to hand-solder instead of PCBAing |
-| Total |  | 115.32 |  |
+| LCSC shipping | N/A | 18.37 |  |
+| Speek Amp PCB | N/A | 8.6 |  |
+| Speek Amp PCBA | N/A | 45.18 |  |
+| Speek RX PCB | N/A | 4 |  |
+| Speek RX PCBA | N/A | 73.48 |  |
+| Speek PSU PCB | N/A | 2 |  |
+| JLC Shipping | N/A | 29 |  |
+| Total |  | 292.89 |  |
 
 ## Fabrication BOMs
 
@@ -155,8 +160,13 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 | C15, C52, C53, C9 | CAP-SMD_BD8.0-L8.3-W8.3-FD | 4 | 220uF | C178534 |
 | C18, C19, C20, C21, C22, C23 | C0603 | 6 | 10nF | C57112 |
 | C2 | C0603 | 1 | 100nF | C14663 |
+| C3, C36 | CAP-TH_L29.5-W12.7-P27.00-D0.8 | 2 | 6.8uF film | C21390242 |
 | C30, C31, C32, C33, C41, C42, C45, C6 | C0402 | 8 | 1uF | C52923 |
+| C34, C35, C39, C40 | CP_Radial_D6.3mm_P2.50mm | 4 | 10uF |  |
+| C37, C4 | CP_Radial_D6.3mm_P2.50mm | 2 | 47uF |  |
+| C38, C5 | CP_Radial_D6.3mm_P2.50mm | 2 | 22uF |  |
 | C44, C46, C47, C60, C61, C70 | C0805 | 6 | 680nF | C107133 |
+| IN_1 | AUDIO-SMD_PJ-320D-1 | 1 | PJ-320D | C431535 |
 | R1, R13, R18, R19, R6, R7, R8, R9 | R0402 | 8 | 3.3 | C137986 |
 | R10 | R0805 | 1 | 5.6k | C4382 |
 | R11 | R0603 | 1 | 3.2k | C861375 |
@@ -165,8 +175,16 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 | R20, R3, R4 | R0402 | 3 | 10k | C25744 |
 | R21 | R0603 | 1 | 75k | C23242 |
 | U1, U10 | HTSSOP-32_L11.0-W6.1-P0.65-LS8.1-BL | 2 | TPA3116D2DAD_C2865736 | C2865736 |
+| U11 | CONN-TH_DB301V-3.5-2P-GN | 1 | R_Tweeter | C695629 |
+| U12 | CONN-TH_DB301V-3.5-2P-GN | 1 | R_Woofer | C695629 |
 | U13, U14, U2, U3, U5, U6 | IND-SMD_L7.2-W6.6_GPSR07X0 | 6 | 10uH | C5189958 |
-| in_1 | AUDIO-SMD_PJ-320D-1 | 1 | PJ-320D | C431535 |
+| U15 | CONN-TH_DB301V-3.5-2P-GN | 1 | L_Tweeter | C695629 |
+| U16 | CONN-TH_DB301V-3.5-2P-GN | 1 | L_Woofer | C695629 |
+| U17 | CONN-TH_DB301V-3.5-2P-GN | 1 | L_Sub | C695629 |
+| U18 | CONN-TH_DB301V-3.5-2P-GN | 1 | J1 | C695629 |
+| U4 | CONN-TH_XT60 | 1 | XT60 | C98733 |
+| U7, U8 | IND-TH_L23.0-W12.0-P8.00-D0.8 | 2 | PDMTAT068125-151MLU | C3011544 |
+| U9 | CAP-TH_BD18.0-P7.50-D0.8-FD | 1 | 50PX4700MEFC18X40 | C5115284 |
 
 ### Speek RX
 
