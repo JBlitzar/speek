@@ -117,6 +117,16 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 | --- | --- |
 | ![Speek PSU F.Cu](docs/psu_fcu.png) | ![Speek PSU B.Cu](docs/psu_bcu.png) |
 
+
+## About cost
+
+Speaker drivers are included in the BOM, but I'm not asking for them here. I will for sure pay for them out of pocket or figure it out. They are included in the BOM for record-keeping purposes. Basically they are the drivers that I sourced to base the amp design off of. 
+
+For the rest, I have a significant amount of credits already lying around, and I've got a JLC $20 coupon. 
+
+**TLDR:** I've heavily BOM-optimized and this is pretty much how much the PCBs are going to cost. Don't worry about the grant not covering everything, I'll pay the rest out of pocket
+
+
 ## Overall BOM
 
 | Item | Link | Extended Cost | Notes |
@@ -146,6 +156,8 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 | Speek PSU PCB | N/A | 2 |  |
 | JLC Shipping | N/A | 29 |  |
 | Total |  | 292.89 |  |
+| Total (excluding speaker drivers) |  | 226.97 |  |
+| PCB total |  | 190.97 |  |
 
 ## Fabrication BOMs
 
