@@ -16,9 +16,9 @@ On modularity:
 
 ## \[Please Read\] Where do I find everything? AKA checklist
 
-Why the monorepo?
+What's with the monorepo?
 
-Because it's one project even though it has multiple boards. idk, Madhav reccommended it.
+A monorepo just means everything lives in one repo instead of splitting each board into its own. All the files are here: each board gets its own top-level folder (`speek-amp`, `speek-rx`, `speek-psu`), with docs in `docs` and the overall BOM at `BOM.csv`. I went with a monorepo because even though there are multiple boards, it's really one project overall, so it made sense to keep them together.
 
 Checklist:
 
