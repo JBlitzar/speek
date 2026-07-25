@@ -18858,6 +18858,17 @@
 			(uuid "fd7ff270-fbc5-481a-9bb8-c0fb7b94103f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAP-TH-2P-L17.0-W7.5-H14.0-P15.0.step"
+			(offset
+				(xyz 0 0 13)
+			)
+			(scale
+				(xyz 1.8 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "easyeda2kicad:C0603"
 		(layer "F.Cu")
@@ -37302,6 +37313,17 @@
 			(uuid "a428b95d-c0d5-4b29-943a-034565013aa5")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAP-TH-2P-L17.0-W7.5-H14.0-P15.0.step"
+			(offset
+				(xyz 0 0 13)
+			)
+			(scale
+				(xyz 1.8 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
