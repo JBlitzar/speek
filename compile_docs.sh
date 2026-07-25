@@ -74,7 +74,179 @@ for entry in "${BOARDS[@]}"; do
         --quality high --side top \
         --width 1600 --height 1600 \
         --background transparent "$pcb" >/dev/null
+
+    echo ">> $slug: STEP"
+    cad_dir="$REPO_ROOT/$dir/CAD"
+    mkdir -p "$cad_dir"
+    "$KICAD_CLI" pcb export step --output "$cad_dir/${base}.step" \
+        --force --subst-models --no-optimize-step "$pcb" >/dev/null
 done
+
+echo ">> assembly STEP (stitched)"
+step_files=()
+for entry in "${BOARDS[@]}"; do
+    IFS='|' read -r slug dir base <<<"$entry"
+    step_files+=("$REPO_ROOT/$dir/CAD/${base}.step")
+done
+# Only build the assembly if every per-board STEP exists
+have_all=1
+for p in "${step_files[@]}"; do [[ -f "$p" ]] || { have_all=0; break; }; done
+if [[ "$have_all" -eq 1 ]] && command -v uv >/dev/null 2>&1; then
+    # Hybrid assembly: cadquery/OCCT computes each board's true extent
+    # (transforms applied) for tight side-by-side layout, then a pure-text
+    # merge produces the STEP. The text merge classifies each CARTESIAN_POINT
+    # as board-space (translate it) vs component-local (leave it; the
+    # component's placement transform carries it rigidly) by BFS from each
+    # component's source representation. This avoids the OCCT re-encode that
+    # balloons file size while keeping components attached to their boards.
+    uv run --no-project --with cadquery python - "$REPO_ROOT" "${step_files[@]}" <<'PY'
+import os, re, sys
+import cadquery as cq
+
+repo, steps = sys.argv[1], sys.argv[2:]
+gap_mm = 5.0  # spacing between boards along X
+
+CPT_RE = re.compile(
+    r"(#\d+\s*=\s*CARTESIAN_POINT\s*\(\s*'(?:[^']|'')*'\s*,\s*\(\s*)"
+    r"([^)]+?)(\s*\)\s*\)\s*;)"
+)
+# REPRESENTATION_RELATIONSHIP('','',#source_rep,#target_rep) inside a complex
+# entity. source_rep = component (local coords); target_rep = board.
+RR_RE = re.compile(
+    r"REPRESENTATION_RELATIONSHIP\s*\(\s*'[^']*'\s*,\s*'[^']*'\s*,\s*#(\d+)\s*,\s*#(\d+)\s*\)"
+)
+
+def fmt_real(x):
+    s = "{:.12g}".format(x)
+    if '.' not in s and 'e' not in s and 'E' not in s:
+        s += '.'
+    return s
+
+def parse_coords(s):
+    return [c.strip() for c in s.split(',') if c.strip()]
+
+def is_real(s):
+    try:
+        float(s); return True
+    except ValueError:
+        return False
+
+def section(text, name):
+    m = re.search(name + r";\s*(.*?)\s*ENDSEC;", text, re.DOTALL)
+    return m.group(1) if m else ""
+
+def split_statements(data):
+    stmts, buf = [], []
+    for line in data.splitlines():
+        buf.append(line)
+        if line.rstrip().endswith(';'):
+            stmts.append('\n'.join(buf)); buf = []
+    if buf:
+        stmts.append('\n'.join(buf))
+    return stmts
+
+def parse_graph(statements):
+    # entity_id -> set(referenced entity_ids); also collect component source reps.
+    graph, source_reps = {}, set()
+    for stmt in statements:
+        m = re.match(r"\s*#(\d+)\s*=\s*([A-Z0-9_]+)", stmt)
+        if m:
+            eid = int(m.group(1))
+        else:
+            m2 = re.match(r"\s*#(\d+)\s*=\s*\(", stmt)  # complex entity, e.g. #427 = ( ... )
+            eid = int(m2.group(1)) if m2 else None
+        if eid is None:
+            continue
+        refs = set(int(x) for x in re.findall(r"#(\d+)", stmt))
+        refs.discard(eid)
+        graph[eid] = refs
+        rr = RR_RE.search(stmt)
+        if rr:
+            source_reps.add(int(rr.group(1)))
+    return graph, source_reps
+
+def collect_local(graph, sources):
+    # All entity ids reachable (downward) from component source reps. Their
+    # CARTESIAN_POINTs are in component-local coords and must NOT be translated.
+    seen, stack = set(), list(sources)
+    while stack:
+        e = stack.pop()
+        if e in seen:
+            continue
+        seen.add(e)
+        for r in graph.get(e, ()):
+            if r not in seen:
+                stack.append(r)
+    return seen
+
+def true_bbox(path):
+    # Ground-truth board extent with component transforms applied (read-only).
+    w = cq.importers.importStep(path)
+    xs, ys, zs = [], [], []
+    for v in w.vals():
+        bb = v.BoundingBox()
+        xs += [bb.xmin, bb.xmax]; ys += [bb.ymin, bb.ymax]; zs += [bb.zmin, bb.zmax]
+    return (min(xs), min(ys), min(zs), max(xs), max(ys), max(zs))
+
+texts = [open(p, 'r', errors='replace').read() for p in steps]
+datas = [section(t, "DATA") for t in texts]
+header = section(texts[0], "HEADER") if texts else ""
+
+# Classify component-local points per file (for correct rigid translation).
+local_sets = []
+for d in datas:
+    graph, sources = parse_graph(split_statements(d))
+    local_sets.append(collect_local(graph, sources))
+
+# True per-board bbox (OCCT, transforms applied) for tight layout.
+bboxes = [true_bbox(p) for p in steps]
+
+# Per-file entity-ID offsets so all references stay unique after merge.
+offsets, running = [], 0
+for d in datas:
+    ids = [int(x) for x in re.findall(r"#(\d+)\s*=", d)]
+    mid = max(ids) if ids else 0
+    offsets.append(running)
+    running += mid + 1
+
+# Layout: side-by-side along X, centered on Y, sitting on Z=0.
+trans, x_cursor = [], 0.0
+for (x0, y0, z0, x1, y1, z1) in bboxes:
+    dx = x_cursor - x0
+    dy = -((y0 + y1) / 2.0)
+    dz = -z0
+    trans.append((dx, dy, dz))
+    x_cursor += (x1 - x0) + gap_mm
+
+def remap(data, off):
+    return re.sub(r"#(\d+)", lambda m: "#" + str(int(m.group(1)) + off), data)
+
+def translate(data, dx, dy, dz, local_ids):
+    def repl(m):
+        eid = int(re.match(r"#(\d+)", m.group(1)).group(1))
+        if eid in local_ids:
+            return m.group(0)  # component-local: placement transform moves it
+        c = parse_coords(m.group(2))
+        if len(c) != 3 or not all(is_real(v) for v in c):
+            return m.group(0)
+        pts = [fmt_real(float(c[0]) + dx), fmt_real(float(c[1]) + dy), fmt_real(float(c[2]) + dz)]
+        return m.group(1) + ", ".join(pts) + m.group(3)
+    return CPT_RE.sub(repl, data)
+
+out = os.path.join(repo, "docs", "speek_assembly.step")
+with open(out, 'w') as f:
+    f.write("ISO-10303-21;\nHEADER;\n")
+    f.write(header if header.endswith("\n") else header + "\n")
+    f.write("ENDSEC;\nDATA;\n")
+    for d, off, (dx, dy, dz), loc in zip(datas, offsets, trans, local_sets):
+        f.write(remap(translate(d, dx, dy, dz, loc), off))
+        f.write("\n")
+    f.write("ENDSEC;\nEND-ISO-10303-21;\n")
+print(f"Wrote {out}")
+PY
+else
+    echo "warning: skipping assembly STEP (missing per-board STEPs or uv not found)" >&2
+fi
 
 echo ">> banner"
 STITCH="$(command -v magick || command -v convert)"

@@ -39,6 +39,7 @@ Checklist:
 - [x] A screenshot of your schematic, if you have one
 - [x] A wiring diagram, if you're doing any wiring that isn't on a PCB
 - [x] A BOM in table format at the end of the README
+- [x] A STEP file of your assembly: [speek_assembly.step](docs/speek_assembly.step)
 
 ## How to use?
 
