@@ -4110,7 +4110,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a671a4a3-7caa-4f69-ae9d-c0fc0f0808f3")
 		(property "Reference" "D3"
