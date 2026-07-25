@@ -157,7 +157,6 @@ For wiring your speaker drivers, the silkscreen should coach you through that.
 | C2 | C0603 | 1 | 100nF | C14663 |
 | C30, C31, C32, C33, C41, C42, C45, C6 | C0402 | 8 | 1uF | C52923 |
 | C44, C46, C47, C60, C61, C70 | C0805 | 6 | 680nF | C107133 |
-| D1, D2 | SOT1289_L5.8-W4.4-LS6.5-RD | 2 | PMEG060V100EPDZ | C552792 |
 | R1, R13, R18, R19, R6, R7, R8, R9 | R0402 | 8 | 3.3 | C137986 |
 | R10 | R0805 | 1 | 5.6k | C4382 |
 | R11 | R0603 | 1 | 3.2k | C861375 |
