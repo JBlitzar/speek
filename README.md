@@ -12,6 +12,9 @@ On modularity:
 
 - Each board is self-contained and can be used on its own. However, they can also all be used together. 
 
+
+I made this project to get into audio systems! I've visited some hi-fi listening rooms, and I thought it was really cool. But I think the speaker industry is way overpriced. People commonly pay several thousand dollars for nice speaker systems! I wanted to build one myself for a few hundred. It might not be as high-fidelity, but it'll be my own, which is pretty cool. And you or I probably wouldn't be able to hear the difference. 
+
 **Right now, enclosure design is out of scope. This repo holds just the boards, and the boards are complete**
 
 ## \[Please Read\] Where do I find everything? AKA checklist
